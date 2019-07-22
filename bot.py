@@ -4,7 +4,7 @@ import json
 import requests
 from tabulate import tabulate
 
-bot_token = '757530205:AAE0x0IxrNAbQKcm76N5CTpQKH8bAqKYAHk'
+bot_token = ''
 
 bot = telebot.TeleBot(token=bot_token)
 
