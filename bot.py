@@ -49,12 +49,7 @@ def send_weather(message):
     ##chat_id = message.chat.id
     ##bot.send_photo(chat_id=chat_id, photo='https://telegram.org/img/t_logo.png')
 
-@bot.message_handler(func=lambda msg: msg.text is not None and '@' in msg.text)
-def at_answer(message):
-    texts = message.text.split()
-    at_text = find_at(texts)
 
-    bot.reply_to(message, 'https://instagram.com/{}'.format(at_text[1:]))
 
 print("bot is Online!!")
 
