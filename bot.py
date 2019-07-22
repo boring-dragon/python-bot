@@ -22,10 +22,6 @@ def Male_new():
 
     return infos
 
-def find_at(msg):
-    for text in msg:
-        if '@' in text:
-            return text
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
