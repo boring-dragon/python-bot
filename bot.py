@@ -46,8 +46,6 @@ def send_weather(message):
 def send_weather(message):
     info = Male_info()
     bot.reply_to(message, info)
-    ##chat_id = message.chat.id
-    ##bot.send_photo(chat_id=chat_id, photo='https://telegram.org/img/t_logo.png')
 
 
 
